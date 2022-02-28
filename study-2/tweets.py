@@ -20,4 +20,4 @@ for tweet in tweepy.Paginator(twitter.get_users_tweets,
     tweets.append(tweet)
 
 df = pd.DataFrame(tweets)
-df.to_csv('/brandon/home/tweets.csv', mode='w', index=False)
+df.to_csv('/akbar/home/tweets.csv', mode='w', index=False)
